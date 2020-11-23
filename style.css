@@ -47,7 +47,6 @@ body::after {
     flex-direction: row;
     color: #fff;
     justify-content: space-around;
-    
 }
 
 .navbar a{
@@ -69,6 +68,7 @@ li{
     color: #fff;
     border-top: 1px #fff solid;
 }
+
 a{
     text-decoration: none;
     color: #fff;
@@ -110,7 +110,6 @@ p {margin: 10px 0;
 
 .container .logo{
     width: 110px;
- 
 }
 
 .text-box {
@@ -118,8 +117,6 @@ p {margin: 10px 0;
     z-index: 2;
     left: 160px;
     top: 450px;
-    
-    
 }
 
 .text-box h1{
@@ -129,7 +126,6 @@ p {margin: 10px 0;
 .text-box h4{
     font-family: 'Roboto', sans-serif;
     color: var(--brand-primary);
-
 }
 
 .text-box p{
@@ -145,17 +141,14 @@ p {margin: 10px 0;
     color: #000;
     padding: 8px 25px;
     font-size: 10px;
-
 }
 
 
 .btn-test{ 
-
     background-color: var(--brand-primary);
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     color: #000;
     padding: 8px 40px;
     font-size: 10px;
-
 }
