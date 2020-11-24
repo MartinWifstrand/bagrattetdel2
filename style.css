@@ -230,6 +230,13 @@ footer {
     font-size: 15px;
     color: #000;
     line-height: 1.6;
+
+    display: flex;
+}
+
+.main-img {
+    padding-top: 10rem;
+    padding-left: 10rem;
 }
 
 .main-text-box{
@@ -237,3 +244,4 @@ footer {
     padding-top: 15rem;
     padding-left: 10rem;
 }
+
