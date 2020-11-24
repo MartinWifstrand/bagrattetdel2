@@ -134,6 +134,32 @@ p {margin: 10px 0;
     font-size: 15px;
 }
 
+/* Jens Styling start */
+
+body.page_id_2{
+    background-image:none;
+    background-color: var(--quinary);
+   }
+
+.p_2_box1, .p_2_box2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 50;
+    font-size: 15px;
+    color: var(--secondary);  
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: 20rem;
+}
+
+.p_2_nav {
+    justify-content: ;
+}
+
+
+/* Jens Styling end */
+
+
+
 .btn-pre{ 
     margin-left: 90rem;
     background-color: var(--primary);
