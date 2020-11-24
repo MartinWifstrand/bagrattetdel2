@@ -31,6 +31,14 @@
     display: block;
 }
 
+.body-leasing {
+ background-color: var(--quinary);
+}
+
+.body-design {
+ background-color: var(--quinary)
+}
+
 body::after {
 	content: '';
 	position: absolute;
