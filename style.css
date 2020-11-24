@@ -86,6 +86,7 @@ p {margin: 10px 0;
     color: #fff;
 
 }
+
 /*
 .video{
     position: absolute;
@@ -105,7 +106,8 @@ p {margin: 10px 0;
  }
 
 .containers .logo{
-    width: 110px; 
+    width: 220px;
+    margin: 1rem;
 }
 
 .text-box {
@@ -171,7 +173,6 @@ p {margin: 10px 0;
     grid-template-columns: repeat(4, 1fr);
     color: #fff;
 }
-
 
 .center {
     text-align: center;
