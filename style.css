@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-body{
+.body-index{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
@@ -26,6 +26,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     display: block;
+}
+
+.body-leasing{
+    background-color: var(--quinary); 
 }
 
 body::after {
@@ -48,15 +52,14 @@ body::after {
     justify-content: space-around;
 }
 
-.navbar a{
+.navbar li a{
     padding: 0 135px;
     margin: 0.5px;
 }
 
-.navbar a:hover{
+.navbar li a:hover{
     color: var(--primary);
 }
-
 
 .navbar .flex{
     justify-content: space-between;
@@ -114,7 +117,7 @@ p {margin: 10px 0;
     position: absolute;
     z-index: 2;
     left: 100px;
-    top: 360px;
+    top: 590px;
 }
 
 .text-box h1{
@@ -131,9 +134,8 @@ p {margin: 10px 0;
     font-size: 15px;
 }
 
-
 .btn-pre{ 
-    margin-left: 70rem;
+    margin-left: 90rem;
     background-color: var(--primary);
     font-family: 'Roboto', sans-serif;
     color: #000;
@@ -146,7 +148,6 @@ p {margin: 10px 0;
     color: var(--primary);
 }
 
-
 .btn-test{ 
     background-color: var(--primary);
     font-family: 'Roboto', sans-serif;
@@ -156,7 +157,6 @@ p {margin: 10px 0;
     font-size: 10px;
 }
 
-
 .container {
     z-index: 2;
     max-width: 960px;
@@ -165,8 +165,7 @@ p {margin: 10px 0;
     padding: 4rem 1rem;
     font-size: 10px;
 }
-  
-  
+
 .grid-3 {
     display: grid;
     grid-gap: 20px;
@@ -174,8 +173,12 @@ p {margin: 10px 0;
     color: #fff;
 }
 
-.center {
-    text-align: center;
+.main-leasing {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
 }
 
 footer {
