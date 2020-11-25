@@ -281,6 +281,10 @@ footer {
 
 }
 
+.p_2_box h1{
+    color: var(--secondary);
+}
+
 img.koncept_pic {
     
         max-width: 100%;
