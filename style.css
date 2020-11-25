@@ -182,6 +182,8 @@ p {margin: 10px 0;
     font-size: 10px;
 }
 
+
+
 /* Grid */
 
 .grid-3 {
@@ -284,6 +286,7 @@ footer {
         padding: 10px;
         padding-top: 10%;
         padding-left: 15%;
+        padding-bottom: 5rem;
       }
 .grid-one > div {
         text-align: center;
@@ -307,7 +310,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.6;
-    color: #fff;  
+    color: rgb(240, 234, 234);  
     display: grid;
     grid-template-columns: 20% 30% auto;
     padding: 10%;
@@ -315,6 +318,10 @@ footer {
     padding-left: 14%;
 
 
+}
+
+.p_2_box h1{
+    color: var(--secondary);
 }
 
 img.koncept_pic {
@@ -326,5 +333,5 @@ img.koncept_pic {
 /* Jens Styling end */
 
 h1, h2, h3, h4, p, a {
-    z-index: 2;
+    z-index: 1;
 }
