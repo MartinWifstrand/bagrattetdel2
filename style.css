@@ -223,7 +223,7 @@ footer {
     color: #000;
     line-height: 1.6;
     display: flex;
-    padding-left: 20.5rem;
+    padding-left: 21.5%;
 }
 
 .leasing-img {
@@ -241,14 +241,7 @@ footer {
     color: var(--primary);
 }
 
-.leasing-btn {
-    background-color: var(--primary);
-    font-family: 'Roboto', sans-serif;
-    color: #000;
-    padding: 8px 25px;
-    font-size: 10px;
-    text-align: center;
-}
+/* Boxes */
 
 .leasing-container a {
     color: #000000;
@@ -274,12 +267,20 @@ footer {
     z-index: 2;
 }
 
-.leasing-small {
-    font-size: 12px;
+/* Box Text */
+
+.leasing-medium {
+    font-size: 15px;
+    padding-top: 4rem;
 }
 
 .leasing-big {
     font-size: 24px;
+    padding-top: 4rem;
+}
+
+.leasing-small {
+    font-size: 12px;
 }
 
 /* Kathlyn Styling design siden start */
