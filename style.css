@@ -92,13 +92,14 @@ p {margin: 10px 0;
 
 /* Video??? */
 
-/*
+
 .video{
     position: absolute;
-    top: 200px;
-    left: 60%;
+    top: 170px;
+    left: 64%;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 1);
 }
-*/
+
 
 /* Container */
 
@@ -125,21 +126,26 @@ p {margin: 10px 0;
     position: absolute;
     z-index: 2;
     left: 100px;
-    top: 360px;
+    top: 380px;
 }
 
 .text-box h1{
+    color: var(--primary);
+}
+
+.text-box h2{
     color: #fff;
+}
+
+.text-box h3{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary);
+    text-transform: uppercase;
 }
 
 .text-box h4{
     font-family: 'Roboto', sans-serif;
     color: var(--primary);
-}
-
-.text-box p{
-    color: #fff;
-    font-size: 15px;
 }
 
 .index-btn-pre{ 
@@ -149,6 +155,7 @@ p {margin: 10px 0;
     color: #000;
     padding: 8px 25px;
     font-size: 10px;
+    text-transform: uppercase;
 }
 
 .btn-pre:hover{
@@ -277,6 +284,7 @@ footer {
         text-align: center;
         padding: 20px 0;
         font-size: 15px;
+        line-height: 1.6;
       }   
  
 
@@ -312,3 +320,6 @@ img.koncept_pic {
 }
 /* Jens Styling end */
 
+h1, h2, h3, h4, p, a {
+    z-index: 2;
+}
