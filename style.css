@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
 
 :root{
-    --primary: #d5ffff;
-    --secondary: #00d9fa;
-    --tertiary: #007db8;
-    --quaternary:#5e5c5e;
-    --quinary:#003852;
+    --brand-primary: #d5ffff;
+    --brand-secondary: #00d9fa;
+    --brand-tertiary: #007db8;
+    --brand-quaternary:#5e5c5e;
+    --brand-quinary:#003852;
 }
 
 *{
@@ -60,7 +60,7 @@ body::after {
 }
 
 .navbar li a:hover{
-    color: var(--primary);
+    color: var(--brand-primary);
 }
 
 .navbar .flex{
@@ -130,7 +130,7 @@ p {margin: 10px 0;
 }
 
 .text-box h1{
-    color: var(--secondary);
+    color: var(--brand-secondary);
 }
 
 .text-box h2{
@@ -139,17 +139,17 @@ p {margin: 10px 0;
 
 .text-box h3{
     font-family: 'Roboto', sans-serif;
-    color: var(--primary);
+    color: var(--brand-primary);
     text-transform: uppercase;
 }
 
 .text-box h4{
     font-family: 'Roboto', sans-serif;
-    color: var(--secondary);
+    color: var(--brand-secondary);
 }
 
 .index-btn-pre{ 
-    background-color: var(--primary);
+    background-color: var(--brand-primary);
     font-family: 'Roboto', sans-serif;
     color: #000;
     padding: 8px 25px;
@@ -160,11 +160,11 @@ p {margin: 10px 0;
 
 .index-btn-pre:hover{
     background-color: #000;
-    color: var(--primary);
+    color: var(--brand-primary);
 }
 
 .btn-test{ 
-    background-color: var(--primary);
+    background-color: var(--brand-primary);
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     color: #000;
@@ -208,7 +208,7 @@ footer {
 /* Leasing Siden */
 
 .body-leasing{
-    background-color: var(--quinary); 
+    background-color: var(--brand-quinary); 
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
@@ -239,7 +239,7 @@ footer {
 }
 
 .leasing-text-box h4 {
-    color: var(--primary);
+    color: var(--brand-primary);
 }
 
 /* Boxes */
@@ -258,7 +258,7 @@ footer {
 }
 
 .leasing-box {
-    background: var(--primary);
+    background: var(--brand-primary);
     text-align: center;
     padding: 2rem 1rem;
     height: 440px;
@@ -287,7 +287,7 @@ footer {
 /* Kathlyn Styling design siden start */
 
 .body-design {
-    background-color: var(--quinary);
+    background-color: var(--brand-quinary);
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
@@ -314,8 +314,8 @@ footer {
  
       .btn-design {
         border: none;
-        background-color: var(--secondary);
-        color: var(--quinary);
+        background-color: var(--brand-secondary);
+        color: var(--brand-quinary);
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
@@ -332,7 +332,7 @@ footer {
 
 .body-koncept{
 
-    background-color: var(--quinary);
+    background-color: var(--brand-quinary);
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 15px;
@@ -357,7 +357,7 @@ footer {
 }
 
 .p_2_box h1{
-    color: var(--secondary);
+    color: var(--brand-secondary);
 }
 
 img.koncept_pic {
