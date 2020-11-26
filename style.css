@@ -130,7 +130,7 @@ p {margin: 10px 0;
 }
 
 .text-box h1{
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .text-box h2{
@@ -145,7 +145,7 @@ p {margin: 10px 0;
 
 .text-box h4{
     font-family: 'Roboto', sans-serif;
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .index-btn-pre{ 
