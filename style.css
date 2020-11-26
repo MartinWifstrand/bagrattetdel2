@@ -359,3 +359,46 @@ img.koncept_pic {
 h1, h2, h3, h4, p, a {
     z-index: 1;
 }
+
+/* media que */
+
+@media screen and (max-width: 1280px) {
+    
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        justify-content: space-around;
+    }
+    .p_2_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10rem;
+    }
+    .btn-koncept {
+        align-self: center;
+    }
+
+    .grid-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10rem;
+      }
+  
+    .leasing-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        margin-left: 8rem;
+    }
+    .leasing-img {
+        justify-content: space-around;
+        position: fixed;
+        align-self: center;
+        margin-left: 1rem;
+    }
+  }
