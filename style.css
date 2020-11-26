@@ -287,8 +287,13 @@ footer {
 /* Kathlyn Styling design siden start */
 
 .body-design {
-    background-color: var(--quinary)
-
+    background-color: var(--quinary);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+    height: 100vh;
 }
 .grid-one {
         display: grid;
@@ -328,6 +333,12 @@ footer {
 .body-koncept{
 
     background-color: var(--quinary);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+    height: 100vh;
    }
 
 .p_2_box {
