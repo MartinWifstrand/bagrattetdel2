@@ -95,7 +95,7 @@ p {margin: 10px 0;
 
 .video{
     position: absolute;
-    top: 170px;
+    top: 175px;
     left: 64%;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 1);
 }
@@ -157,7 +157,7 @@ p {margin: 10px 0;
     text-transform: uppercase;
 }
 
-.btn-pre:hover{
+.index-btn-pre:hover{
     background-color: #000;
     color: var(--primary);
 }
